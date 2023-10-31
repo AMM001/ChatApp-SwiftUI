@@ -15,7 +15,7 @@ struct GroupListView: View {
         List(groups) { group in
             
             NavigationLink {
-                Text(group.subject)
+                GroupDetailView(group: group)
             } label: {
                 HStack {
                     Image(systemName: "person.2")

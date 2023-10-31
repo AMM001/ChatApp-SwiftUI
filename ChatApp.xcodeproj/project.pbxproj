@@ -29,6 +29,7 @@
 		846030E82AEAD6C600663018 /* AddNewGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846030E72AEAD6C600663018 /* AddNewGroupView.swift */; };
 		846030EA2AEFBE2100663018 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846030E92AEFBE2100663018 /* Group.swift */; };
 		846030EC2AF0F50E00663018 /* GroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846030EB2AF0F50E00663018 /* GroupListView.swift */; };
+		846030EE2AF0F9BE00663018 /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846030ED2AF0F9BE00663018 /* GroupDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		846030E72AEAD6C600663018 /* AddNewGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGroupView.swift; sourceTree = "<group>"; };
 		846030E92AEFBE2100663018 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		846030EB2AF0F50E00663018 /* GroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListView.swift; sourceTree = "<group>"; };
+		846030ED2AF0F9BE00663018 /* GroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				846030E52AEAD4EA00663018 /* GroupListContainerView.swift */,
 				846030E72AEAD6C600663018 /* AddNewGroupView.swift */,
 				846030EB2AF0F50E00663018 /* GroupListView.swift */,
+				846030ED2AF0F9BE00663018 /* GroupDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				846030E02AE9253900663018 /* Login.swift in Sources */,
 				846030CD2AE914F500663018 /* SignUpView.swift in Sources */,
 				846030EC2AF0F50E00663018 /* GroupListView.swift in Sources */,
+				846030EE2AF0F9BE00663018 /* GroupDetailView.swift in Sources */,
 				846030A22AE914C300663018 /* ChatAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
