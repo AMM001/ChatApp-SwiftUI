@@ -34,16 +34,15 @@ class Model:ObservableObject {
         
     }
     
-    func saveChatMessageToGroup(text: String, group: Group, completion: @escaping (Error?) -> Void) {
+    
+    func saveChatMessageToGroup(chatMessage: ChatMessage, group: Group) async throws {
         
         let db = Firestore.firestore()
         guard let groupDocumentId = group.documentId else { return }
-        db.collection("groups")
+        let _ = try await db.collection("groups")
             .document(groupDocumentId)
             .collection("messages")
-            .addDocument(data: ["chatText": text]) { error in
-                completion(error)
-            }
+            .addDocument(data: chatMessage.toDictionary())
     }
     
     func saveGroup(group:Group , completion:@escaping (Error?) -> Void ){
