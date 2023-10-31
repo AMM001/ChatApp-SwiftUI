@@ -26,19 +26,25 @@ struct GroupDetailView: View {
     
     var body: some View {
         VStack {
-            
+            ChatMessageListView(chatMessages: model.chatMessages)
             Spacer()
             TextField("Enter chat message", text: $chatText)
             Button("Send") {
                 Task {
                     do {
                         try await sendMessage()
-                    }catch{
+                    } catch {
                         print(error.localizedDescription)
                     }
                 }
             }
         }.padding()
+            .onDisappear {
+                model.detachFirebaseListener()
+            }
+            .onAppear {
+                model.listenForChatMessages(in: group)
+            }
     }
 }
 

@@ -31,6 +31,8 @@
 		846030EC2AF0F50E00663018 /* GroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846030EB2AF0F50E00663018 /* GroupListView.swift */; };
 		846030EE2AF0F9BE00663018 /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846030ED2AF0F9BE00663018 /* GroupDetailView.swift */; };
 		846030F02AF0FD4900663018 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846030EF2AF0FD4900663018 /* ChatMessage.swift */; };
+		846030F22AF1073100663018 /* ChatMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846030F12AF1073100663018 /* ChatMessageView.swift */; };
+		846030F42AF107E100663018 /* ChatMessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846030F32AF107E100663018 /* ChatMessageListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		846030EB2AF0F50E00663018 /* GroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListView.swift; sourceTree = "<group>"; };
 		846030ED2AF0F9BE00663018 /* GroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailView.swift; sourceTree = "<group>"; };
 		846030EF2AF0FD4900663018 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		846030F12AF1073100663018 /* ChatMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageView.swift; sourceTree = "<group>"; };
+		846030F32AF107E100663018 /* ChatMessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,8 @@
 				846030E72AEAD6C600663018 /* AddNewGroupView.swift */,
 				846030EB2AF0F50E00663018 /* GroupListView.swift */,
 				846030ED2AF0F9BE00663018 /* GroupDetailView.swift */,
+				846030F12AF1073100663018 /* ChatMessageView.swift */,
+				846030F32AF107E100663018 /* ChatMessageListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -338,6 +344,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846030F42AF107E100663018 /* ChatMessageListView.swift in Sources */,
+				846030F22AF1073100663018 /* ChatMessageView.swift in Sources */,
 				846030EA2AEFBE2100663018 /* Group.swift in Sources */,
 				846030E62AEAD4EA00663018 /* GroupListContainerView.swift in Sources */,
 				846030E82AEAD6C600663018 /* AddNewGroupView.swift in Sources */,
@@ -507,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatApp/Preview Content\"";
@@ -518,6 +527,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -525,6 +535,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ChatApp-Task.ChatApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -536,6 +547,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatApp/Preview Content\"";
@@ -547,6 +559,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -554,6 +567,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ChatApp-Task.ChatApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
