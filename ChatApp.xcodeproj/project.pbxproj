@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843E1AAF2AF2750200516FF4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E1AAE2AF2750200516FF4 /* SettingsView.swift */; };
+		843E1AB12AF2771000516FF4 /* Image+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E1AB02AF2771000516FF4 /* Image+Extentions.swift */; };
+		843E1AB32AF2774200516FF4 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E1AB22AF2774200516FF4 /* ImagePicker.swift */; };
+		843E1AB52AF279A700516FF4 /* UIImagePicker+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E1AB42AF279A700516FF4 /* UIImagePicker+Extentions.swift */; };
+		843E1AB72AF27AAC00516FF4 /* UImage+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E1AB62AF27AAC00516FF4 /* UImage+Extentions.swift */; };
+		843E1AB92AF27CB700516FF4 /* Storage+Extetions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E1AB82AF27CB700516FF4 /* Storage+Extetions.swift */; };
 		846030A22AE914C300663018 /* ChatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846030A12AE914C300663018 /* ChatAppApp.swift */; };
 		846030A42AE914C300663018 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846030A32AE914C300663018 /* ContentView.swift */; };
 		846030A62AE914C500663018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846030A52AE914C500663018 /* Assets.xcassets */; };
@@ -53,6 +59,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		843E1AAE2AF2750200516FF4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		843E1AB02AF2771000516FF4 /* Image+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extentions.swift"; sourceTree = "<group>"; };
+		843E1AB22AF2774200516FF4 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		843E1AB42AF279A700516FF4 /* UIImagePicker+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagePicker+Extentions.swift"; sourceTree = "<group>"; };
+		843E1AB62AF27AAC00516FF4 /* UImage+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UImage+Extentions.swift"; sourceTree = "<group>"; };
+		843E1AB82AF27CB700516FF4 /* Storage+Extetions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storage+Extetions.swift"; sourceTree = "<group>"; };
 		8460309E2AE914C300663018 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846030A12AE914C300663018 /* ChatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppApp.swift; sourceTree = "<group>"; };
 		846030A32AE914C300663018 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -181,6 +193,8 @@
 				846030ED2AF0F9BE00663018 /* GroupDetailView.swift */,
 				846030F12AF1073100663018 /* ChatMessageView.swift */,
 				846030F32AF107E100663018 /* ChatMessageListView.swift */,
+				843E1AAE2AF2750200516FF4 /* SettingsView.swift */,
+				843E1AB22AF2774200516FF4 /* ImagePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +203,10 @@
 			isa = PBXGroup;
 			children = (
 				846030DA2AE9188600663018 /* String+Extentions.swift */,
+				843E1AB02AF2771000516FF4 /* Image+Extentions.swift */,
+				843E1AB42AF279A700516FF4 /* UIImagePicker+Extentions.swift */,
+				843E1AB62AF27AAC00516FF4 /* UImage+Extentions.swift */,
+				843E1AB82AF27CB700516FF4 /* Storage+Extetions.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -344,15 +362,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843E1AB52AF279A700516FF4 /* UIImagePicker+Extentions.swift in Sources */,
+				843E1AB92AF27CB700516FF4 /* Storage+Extetions.swift in Sources */,
 				846030F42AF107E100663018 /* ChatMessageListView.swift in Sources */,
 				846030F22AF1073100663018 /* ChatMessageView.swift in Sources */,
 				846030EA2AEFBE2100663018 /* Group.swift in Sources */,
+				843E1AB72AF27AAC00516FF4 /* UImage+Extentions.swift in Sources */,
 				846030E62AEAD4EA00663018 /* GroupListContainerView.swift in Sources */,
 				846030E82AEAD6C600663018 /* AddNewGroupView.swift in Sources */,
+				843E1AAF2AF2750200516FF4 /* SettingsView.swift in Sources */,
 				846030DE2AE9235300663018 /* model.swift in Sources */,
+				843E1AB32AF2774200516FF4 /* ImagePicker.swift in Sources */,
 				846030E22AE927F700663018 /* MainView.swift in Sources */,
 				846030A42AE914C300663018 /* ContentView.swift in Sources */,
 				846030E42AE930A800663018 /* AppState.swift in Sources */,
+				843E1AB12AF2771000516FF4 /* Image+Extentions.swift in Sources */,
 				846030F02AF0FD4900663018 /* ChatMessage.swift in Sources */,
 				846030DB2AE9188600663018 /* String+Extentions.swift in Sources */,
 				846030E02AE9253900663018 /* Login.swift in Sources */,

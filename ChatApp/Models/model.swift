@@ -24,6 +24,16 @@ class Model:ObservableObject {
         try? await request.commitChanges()
     }
     
+    func updatePhotoURL(for user: User, photoURL: URL) async throws {
+        
+        let request = user.createProfileChangeRequest()
+        request.photoURL = photoURL
+        try await request.commitChanges()
+        
+        // update UserInf for all messages
+        
+    }
+    
     func detachFirebaseListener() {
         self.firestoreListener?.remove()
     }
